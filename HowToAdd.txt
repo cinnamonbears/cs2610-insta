@@ -1,0 +1,16 @@
+How to add new files & upload them via git.
+
+# git pull origin master
+	- pull master copy before working
+
+# git add [File_You_Changed]
+	- add edited file
+
+# git status
+	- make sure everything looks good
+
+# git commit -m "Note"
+	- commit changed
+
+# git push origin master
+	- push new master copy to repo
