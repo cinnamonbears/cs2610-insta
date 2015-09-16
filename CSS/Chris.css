@@ -1,0 +1,33 @@
+body{
+  width:100%
+}
+h1{
+   text-align:center;
+}
+ul{
+  list-style-type:none;
+}
+li{
+  padding-top: 10px;
+}
+a {
+    color: #80BD02;
+}
+.Sidebar{
+ text-align:left;
+ float: left;
+ position: fixed;
+ border: 0px solid #000;
+ background-color: #333333;
+ margin: 0px;
+ width: 10em;
+ height: 42em;
+ padding: 5px;
+}
+.listHeaderName{
+  font-size: 18px;
+  color: #80BD02;
+}
+.wrapperPaddingRight{
+  padding-left: 11em;
+}
