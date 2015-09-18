@@ -5,7 +5,6 @@
 
 .ls-Sidebar{
   position:fixed;
-  float: left;
   border-radius: 25px;
   padding 10px;
   color: #05D4C1;
@@ -27,9 +26,9 @@ border-radius: 15px;
 border-width: 1px;
 background-color: #80BD02;
 padding: 3px;
-margin: 3px;
-padding-left: 25px;
-padding-right: 25px;
+margin: 10px;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 .navigation li:hover {
@@ -50,5 +49,5 @@ h1{
   text-align: center;
   font-size: 35px;
   font-style: italic;
-  color: #05CB05;
+  color: #80BD02;
 }
