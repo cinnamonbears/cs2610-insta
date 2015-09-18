@@ -1,0 +1,23 @@
+.ls-Sidebar{
+  position:fixed;
+  float: left;
+  border-radius: 25px;
+  width: 200px;
+  height: 150px;
+  padding 10px;
+  color: #05D4C1;
+  background-color: #535456;
+}
+.ls-FontGreen{
+  font-size: 18px;
+  color: #05D4C1;
+}
+.ls-Background{
+  background-color: #B8B9BC;
+}
+h1{
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  color: #05CB05;
+}
