@@ -4,28 +4,28 @@ body{
 h1{
    text-align:center;
 }
-ul{
-  list-style-type:none;
-}
-li{
-  padding-top: 10px;
-}
-a {
-    color: #80BD02;
-}
+/* SIDEBAR STUFFS*/
 .Sidebar{
  text-align:left;
  float: left;
  position: fixed;
- border: 0px solid #000;
  background-color: #333333;
  margin: 0px;
  width: 10em;
  height: 42em;
  padding: 5px;
+ color: #80BD02;
 }
-.listHeaderName{
+.Sidebar ul{
+  list-style-type:none;
+}
+.Sidebar li{
+padding-top: 10px;
+}
+.Sidebar li:nth-child(1){
   font-size: 18px;
+}
+.Sidebar a{
   color: #80BD02;
 }
 .wrapperPaddingRight{
