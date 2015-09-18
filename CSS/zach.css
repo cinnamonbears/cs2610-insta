@@ -1,0 +1,50 @@
+
+h1.heading{
+text-align: center;
+font-family: Georgia, serif;
+}
+
+.banner {
+margin-left:auto;
+margin-right:auto;
+margin-top: 15px;
+width: 75%;
+height: 100px;
+border-style: solid;
+border-color: #1C807C;
+border-radius: 15px;
+background-color: #82CDCA;
+padding-bottom: 20px;
+}
+
+ul.navigation{
+list-style-type: none;
+text-align: center;
+}
+
+.navigation li {
+display: inline;
+border-style: solid;
+border-width: 1px;
+background-color: #1C807C;
+padding: 3px;
+margin: 3px;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.navigation li:hover {
+background-color: #0A4E4B;
+}
+
+a {
+text-decoration: none;
+}
+
+.navigation a{
+color: #FFFFFF;
+}
+
+body{
+background-color: #BAE9E7;
+}
