@@ -41,6 +41,23 @@ input:hover.submit{
     border-color: #0A4E4B;
 }
 
+.saveSearch{
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #80BD02;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width: 150px;
+    background-color: #80BD02;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+input:hover.saveSearch{
+    background-color: #0A4E4B;
+    border-color: #0A4E4B;
+}
+
 input.search {
     background-image:url("https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/search.png");
     background-size: contain;
@@ -73,7 +90,7 @@ hr{
   color: #0A4E4B;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 }
 
 .results1{
