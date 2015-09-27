@@ -45,12 +45,13 @@ input:hover.submit{
     border-style: solid;
     border-radius: 25px;
     border-color: #80BD02;
-    padding-bottom: 3px;
-    padding-top: 3px;
     width: 150px;
     background-color: #80BD02;
     color: #FFFFFF;
+    padding-bottom: 3px;
+    padding-top: 3px;
     margin-bottom: 15px;
+    margin-left: 8px;
 }
 
 input:hover.saveSearch{
@@ -129,6 +130,7 @@ div.bot{
   padding-top:10px;
   padding-left: auto;
   padding-right: auto;
+  margin-top: 35px;
 }
 
 div.centerResults{
