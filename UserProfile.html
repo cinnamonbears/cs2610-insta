@@ -17,11 +17,17 @@
     <li><a href="search.html"><div class="ls-FontGreen">Search</div></a></li>
   </ul>
 </div>
-<div class = paddingDiv>
+<div class = "paddingDiv">
   <p><strong>Welcome, UserNameGoesHere!<strong></p>
   <img src="ChrisImages/Captain.jpg" height="480" width="360"/>
   <h2>User Info</h2>
-  <svg = width="415" height="45">
+  <form class = "formClass" action="UserProfile.html" method="get">
+    Name: <input type="text" name="fname">
+    Birthday: <input type="text" name="fname"><br>
+    Bio:<br> <textarea rows="8" cols="60"></textarea><br><br>
+   <input type="submit" value="Submit">
+  <form>
+  <!-- <svg = width="415" height="45">
   <rect x="2" y="2" rx="15" ry="15" width="400" height="40"
   style="fill:white;stroke:black;stroke-width:2.5;opacity:1.0" />
   <text x="15" y="27.5" fill="black"  style="opacity:0.3">Add Name</text>
@@ -36,7 +42,7 @@
   <rect x="2" y="2" rx="15" ry="15" width="400" height="140"
   style="fill:white;stroke:black;stroke-width:2.5;opacity:1.0" />
   <text x="15" y="27.5" fill="black"  style="opacity:0.3">About Me</text>
-  </svg>
+  </svg> -->
 
 </div>
 </body>
